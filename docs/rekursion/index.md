@@ -56,6 +56,8 @@ def shining_u(stop=0):
     shining_u(stop)
 ```
 
+*Zeitbedarf: 5'*
+
 ## Wie kommt man zu einer rekursiven Funktion?
 
 Ausgangslage bietet der kleine Gauss:
@@ -79,6 +81,8 @@ $$
 Dies bietet die Möglichkeit, ein grosses Problem solange in kleinere
 Probleme zu zerlegen, bis ein lösbares Problem übrig bleibt.
 
+*Zeitbedarf: 10'*
+
 ## Rekursion sichtbar machen
 
 Wie muss die Funktion gauss() angepasst werden, damit die Rekursion
@@ -97,6 +101,8 @@ gauss(5)
 return 5 + 10
 ```
 
+*Zeitbedarf: 5'*
+
 ## Anwendungsbeispiel $n!$
 
 Kann $n!$ rekursiv formuliert werden?
@@ -110,6 +116,8 @@ n!=
     \end{array}
 \right.
 $$
+
+*Zeitbedarf: 5'*
 
 ## Rekursion ist nicht alternativlos
 
@@ -125,11 +133,15 @@ def gauss_loop(n):
     return total
 ```
 
+*Zeitbedarf: 5'*
+
 ## Beurteilung von rekursiven Lösungen
 
 - Funktionen sind oft einfach zu schreiben
 - die inneren Abläufe der Funktionen sind schwerer nachzuvollziehen
 - braucht viel Speicherplatz
+
+*Zeitbedarf: 5'*
 
 ## Darstellung der Stärken und Schwächen am Beispiel der Fibonacci Zahlen
 
@@ -150,3 +162,5 @@ $$
 aber
 
 ![Visualisierung der Aufrufe für fibonacci(6)](./fibonacci.svg)
+
+*Zeitbedarf: 10'*
