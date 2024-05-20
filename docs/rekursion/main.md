@@ -1,5 +1,7 @@
 # Rekursion in Python
 
+[Link zum Arbeitsblatt](https://colab.research.google.com/github/Jacques-Mock-Schindler/Praktikum_Lichtenstein/blob/main/docs/rekursion/beispiele.ipynb)
+
 Rekursion ist eine fortgeschrittene Programmiertechnik. Weil Python 
 mächtige und flexible Schleifenkonstruktionen zur Verfügung stellt,
 werden in Python rekursive Lösungen vor allem verwendet, um über
