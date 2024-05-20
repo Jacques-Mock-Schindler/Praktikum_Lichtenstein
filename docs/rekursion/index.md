@@ -4,7 +4,7 @@ Rekursion ist eine fortgeschrittene Programmiertechnik. Weil Python
 mächtige und flexible Schleifenkonstruktionen zur Verfügung stellt,
 werden in Python rekursive Lösungen vor allem verwendet, um über
 Strukturen mit unvorhersehbaren Formen und Tiefen zu
-iterieren[^1]. Daher ist die Rekursion eine
+iterieren. Daher ist die Rekursion eine
 nützliche Technik, die man kennen muss.
 
 Weil rekursiv implementierte Funktionen eine fortgeschrittenere Lösung
@@ -110,3 +110,17 @@ n!=
     \end{array}
 \right.
 $$
+
+## Rekursion ist nicht alternativlos
+
+Rekursive Funktionen können auch iterativ geschrieben werden.  
+Wie sieht der kleine Gauss als schleife aus?
+
+```python
+def gauss_loop(n):
+    total = 0
+    while n >= 1:
+        total += n
+        n -= 1
+    return total
+```
