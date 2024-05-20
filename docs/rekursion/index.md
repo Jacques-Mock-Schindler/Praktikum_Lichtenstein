@@ -124,3 +124,25 @@ def gauss_loop(n):
         n -= 1
     return total
 ```
+
+## Beurteilung von rekursiven Lösungen
+
+- Funktionen sind oft einfach zu schreiben
+- die inneren Abläufe der Funktionen sind schwerer nachzuvollziehen
+- braucht viel Speicherplatz
+
+## Darstellung der Stärken und Schwächen am Beispiel der Fibonacci Zahlen
+
+Die Fibonacci Zahlen können rekursiv folgendermassen dargestellt werden:
+
+$$
+f(n)=
+\left\{
+    \begin{array}{ll}
+    0,& n=0\\
+    1,& n=1\\
+    f(n-1)+f(n-2),&\forall n > 1\\
+    
+    \end{array}
+\right.
+$$
