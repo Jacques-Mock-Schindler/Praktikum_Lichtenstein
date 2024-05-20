@@ -56,6 +56,29 @@ def shining_u(stop=0):
     shining_u(stop)
 ```
 
+## Wie kommt man zu einer rekursiven Funktion?
+
+Ausgangslage bietet der kleine Gauss:
+
+$$
+1+2+3+4+\dots+n = \sum_{k=1}^{n} k = \frac{n(n+1)}{2}=\frac{n^2+n}{2}
+$$
+
+Kann diese Aufgabenstellung auch rekursiv definiert werden?
+
+$$
+\sum_{k=1}^{n}k=
+\left\{
+    \begin{array}{lll}
+        1,&n=1&\text{Basisfall}\\
+        n+\sum\limits_{k=1}^{n-1}k,&\forall n > 1&\text{Rekursionsfall}
+    \end{array}
+\right.
+$$
+
+Dies bietet die Möglichkeit, ein grosses Problem solange in kleinere
+Probleme zu zerlegen, bis ein lösbares Problem übrig bleibt.
+
 ## Die Gausssche Summenformel als Anwendungsfall für die Entstehung von Fehlvorstellungen
 
 Eine wesentliche Fehlvorstellung bezieht sich auf den Speicherbedarf von
