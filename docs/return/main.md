@@ -1,5 +1,6 @@
 # Das Return Statement in Pyhthon
 
+[Link zum Arbeitsblatt](https://colab.research.google.com/github/Jacques-Mock-Schindler/Praktikum_Lichtenstein/blob/main/docs/return/return.ipynb)
 - Wie weist man in Python einer Variabeln einen Wert zu?
   
   *Zeitbedarf: 5'*
