@@ -11,7 +11,50 @@ Weil rekursiv implementierte Funktionen eine fortgeschrittenere Lösung
 für Probleme darstellen, und vor allem für anspruchsvollere Aufgaben ein
 nützliches Hilfsmittel sind, lohnt es sich, Fehlvorstellungen im
 Zusammenhang mit der rekursiven Implementierung von Funktionen
-aufzudecken und richtig zu stellen.  
+aufzudecken und richtig zu stellen. 
+
+## Was heist *Rekursion*?
+
+Rekursion bedeutet auf sich selber Bezug zu nehmen. Im Programmieren ist
+dies dann der Fall, wenn eine Funktion sich selber aufruft.
+
+## Was charakterisiert eine rekursive Funktion?
+
+Gegeben ist das folgende Beispiel:
+
+```python
+def shining():
+    
+    print("All work and no play"
+          "makes Jack a dull boy.")
+    
+    shining()
+```
+
+Was geschieht, wenn die Funktion aufgerufen wird?
+
+Es wird grundsätzlich
+
+```txt
+All work and no play makes Jack a dull boy.
+```
+
+endlos ausgegeben.  
+Damit Rekursion zielführend eingesetzt werden kann, braucht es eine
+Abbruchbedinung.
+
+Wie muss das Beispiel angepasst werden, damit die Funktion nach fünf
+ausgaben stoppt?
+
+```python
+def shining_u(stop=0):
+    if stop >= 5:
+        return
+    print("All work and no play"
+          "makes Jack a dull boy.")
+    stop += 1
+    shining_u(stop)
+```
 
 ## Die Gausssche Summenformel als Anwendungsfall für die Entstehung von Fehlvorstellungen
 
