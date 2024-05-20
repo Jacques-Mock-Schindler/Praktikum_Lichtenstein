@@ -20,6 +20,8 @@
    SYTALE demonstriert.  
    [Videoeinführung auf Youtube](https://youtu.be/EhS2KN1mgVA)
 
+   *Zeitbedarf: 10'*
+
 3. Simulation von SKYTALE
    
    Wie kann SKYTALE ohne Stab simuliert werden?
@@ -28,6 +30,8 @@
    Umwicklungen die Anzahl Spalten der Tabelle und die Anzahl der
    Flächen des Stabes (oder auf den Stab geschriebenen Zeilen) die
    Anzahl der Zeilen der Tabelle.
+
+   *Zeitbedarf: 10'*
 
 4. Anwendungsübung von SKYTALE
    
@@ -43,3 +47,17 @@
 
      Der Text wird in Tabellen "abgefüllt" bei denen bei jedem Versuch
      die Anzahl Zeilen um eins erhöht wird.
+
+   *Zeitbedarf: 10'*
+
+5. Beurteilung von SKYTALE
+   
+   - Wie viele Möglichkeiten für die Verschlüsselung gibt es?
+     
+     Grundsätzlich ist die Anzahl Verschlüsselung von der Anzahl Zeilen
+     und Spalten der Tabelle abhängig. Ergänzend kann noch die
+     Leserichtung verändert werden.
+
+   - Wie könnte SKYTALE "verbessert" werden?
+     
+     Es wäre beispielsweise möglich, mehrere Durchläufe zu machen.
