@@ -20,6 +20,8 @@
   Der Standard**Rückgabewert** einer Pythonfunktion ist *None*! Jede
   Pythonfunktion hat einen impliziten Rückgabewert von None.
 
+  *Zeitbedarf: 2'*
+
 - Wie kann dieses Standardverhalten angepasst werden?
   
   Mit einem return Statement. Man spricht in diesem Zusammenhang von
@@ -27,3 +29,5 @@
   print(). Rückgabewerte können einer Variablen zugewiesen werden.
   Ausgabewerte werden an die Standardausgabe (meist das Terminal)
   weitergegeben und dort Angezeigt (ausgegeben).
+
+  *Zeitbedarf: 10'*
