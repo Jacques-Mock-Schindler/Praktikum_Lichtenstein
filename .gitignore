@@ -1,1 +1,4 @@
 *.xlsx
+*.aux
+*.log
+
