@@ -146,3 +146,7 @@ f(n)=
     \end{array}
 \right.
 $$
+
+aber
+
+![Visualisierung der Aufrufe für fibonacci(6)](./fibonacci.svg)
