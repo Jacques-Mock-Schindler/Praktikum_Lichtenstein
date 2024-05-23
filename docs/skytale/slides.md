@@ -29,7 +29,7 @@ section {
 ## Steckbrief
 
 Name: Jacques **Mock** Schindler
-Zivilstand: verheiratet, zwei (erwachsene Kinder)
+Zivilstand: verheiratet, zwei (erwachsene) Kinder
 Beruf: lic.iur / Handelslehrer ( / Informatiker in spe)
 Schule: Kantonsschule Büelrain Winterthur
 
@@ -37,12 +37,9 @@ Schule: Kantonsschule Büelrain Winterthur
 
 ## Historische Situierung von SKYTALE
    
-   SKYTALE wurde bereits vor CAESAR durch die Spartaner verwendet. Der
-   Name dieses Verschlüsselungsverfahrens leitet sich vom altgriechischen
-   Wort für Stab ($\sigma \kappa \upsilon \tau \alpha \lambda \eta$) ab.
-   Der römische Geschichtsschreiber Cornelius Nepos beschreibt das
-   Verschlüsselungsverfahren in seiner [Biographie](https://www.gottwein.de/Lat/nepos/paus01.php#:~:text=id%20postquam%20Lacedaemonii%20rescierunt%2C%20legatos%20cum%20clava%20ad%20eum%20miserunt%2C%20in%20qua%20more%20illorum%20erat%20scriptum%3A%20nisi%20domum%20reverteretur%2C%20se%20capitis%20eum%20damnaturos.) des spartanischen Heerführers Pausanias. Pausanias war einer der beiden Heerkönige
-   Spartas in den Perserkriegen (fünftes vorchristliches Jahrhundert).
+   SKYTALE wurde bereits vor CAESAR durch die Spartaner verwendet. Der Name dieses Verschlüsselungsverfahrens leitet sich vom altgriechischen Wort für Stab ($\sigma \kappa \upsilon \tau \alpha \lambda \eta$) ab.  
+   
+   Der römische Geschichtsschreiber Cornelius Nepos beschreibt das Verschlüsselungsverfahren in seiner [Biographie](https://www.gottwein.de/Lat/nepos/paus01.php#:~:text=id%20postquam%20Lacedaemonii%20rescierunt%2C%20legatos%20cum%20clava%20ad%20eum%20miserunt%2C%20in%20qua%20more%20illorum%20erat%20scriptum%3A%20nisi%20domum%20reverteretur%2C%20se%20capitis%20eum%20damnaturos.) des spartanischen Heerführers Pausanias. Pausanias war einer der beiden Heerkönige Spartas in den Perserkriegen (fünftes vorchristliches Jahrhundert).
 
 ---
 
