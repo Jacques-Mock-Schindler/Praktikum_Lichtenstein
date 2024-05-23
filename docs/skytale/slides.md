@@ -26,7 +26,14 @@ section {
 
 ---
 
+## Steckbrief
 
+Name: Jacques **Mock** Schindler
+Zivilstand: verheiratet, zwei (erwachsene Kinder)
+Beruf: lic.iur / Handelslehrer ( / Informatiker in spe)
+Schule: Kantonsschule Büelrain Winterthur
+
+---
 
 ## Historische Situierung von SKYTALE
    
@@ -42,7 +49,7 @@ section {
 
 ## Demonstration von SKYTALE
    
-![bit.ly/230523_skytale](image.png)
+![width:500px](image.png)
 
 ---
 
@@ -68,6 +75,13 @@ dieses Wissen aus?
 
 * Der Text wird in Tabellen "abgefüllt" bei denen bei jedem Versuch die
   Anzahl Zeilen um eins erhöht wird. 
+
+<!--
+Ausgehend von der Vorstellung als Stab würde ein Caran d'Ache Bleistift verwendet,
+eine Tabelle mit 6 Zeilen und 10 Spalten.
+
+Zweite Übung ohne Bekanntgabe der Anzahl Spalten.
+-->
 
 ---
 
