@@ -7,66 +7,78 @@ backgroundColor: *fff
 author: Jacques Mock Schindler
 
 ---
+<style>
+    section { justify-content: start; }
+</style>
+
+<style scoped>
+  h1 {color: white;
+      background-color: rgba(0, 0, 0, 0.35);
+      border-radius: 4px;
+      }
+section {
+  background-image: url('./titelbild.jpg'); /* Pfad zum Hintergrundbild */
+  background-size: cover; /* Stellt sicher, dass das Bild die ganze Folie bedeckt */
+  background-position: center; /* Zentriert das Bild */
+}
+</style>
 # Verschlüsselungsmethode SKYTALE
 
-1. Historische Situierung von SKYTALE
+---
+
+
+
+## Historische Situierung von SKYTALE
    
    SKYTALE wurde bereits vor CAESAR durch die Spartaner verwendet. Der
    Name dieses Verschlüsselungsverfahrens leitet sich vom altgriechischen
    Wort für Stab ($\sigma \kappa \upsilon \tau \alpha \lambda \eta$) ab.
    Der römische Geschichtsschreiber Cornelius Nepos beschreibt das
-   Verschlüsselungsverfahren in seiner 
-   [Biographie](https://www.gottwein.de/Lat/nepos/paus01.php#:~:text=id%20postquam%20Lacedaemonii%20rescierunt%2C%20legatos%20cum%20clava%20ad%20eum%20miserunt%2C%20in%20qua%20more%20illorum%20erat%20scriptum%3A%20nisi%20domum%20reverteretur%2C%20se%20capitis%20eum%20damnaturos.) 
-   des spartanischen
-   Heerführers Pausanias. Pausanias war einer der beiden Heerkönige
+   Verschlüsselungsverfahren in seiner [Biographie](https://www.gottwein.de/Lat/nepos/paus01.php#:~:text=id%20postquam%20Lacedaemonii%20rescierunt%2C%20legatos%20cum%20clava%20ad%20eum%20miserunt%2C%20in%20qua%20more%20illorum%20erat%20scriptum%3A%20nisi%20domum%20reverteretur%2C%20se%20capitis%20eum%20damnaturos.) des spartanischen Heerführers Pausanias. Pausanias war einer der beiden Heerkönige
    Spartas in den Perserkriegen (fünftes vorchristliches Jahrhundert).
 
-   *Zeitbedarf: 2'*
+---
 
-2. Demonstration von SKYTALE
+
+## Demonstration von SKYTALE
    
-   Mit einem Lineal aus der Primarschule und einem Papierstreifen wird
-   SYTALE demonstriert.  
-   [Videoeinführung auf Youtube](https://youtu.be/EhS2KN1mgVA)
+![bit.ly/230523_skytale](image.png)
 
-   *Zeitbedarf: 10'*
+---
 
-3. Simulation von SKYTALE
+## Simulation von SKYTALE
    
-   Wie kann SKYTALE ohne Stab simuliert werden?
+Wie kann SKYTALE ohne Stab simuliert werden?
 
-   SKYTALE kann als Tabelle dargestellt werden. Dabei ergibt die Anzahl
-   Umwicklungen die Anzahl Spalten der Tabelle und die Anzahl der
-   Flächen des Stabes (oder auf den Stab geschriebenen Zeilen) die
-   Anzahl der Zeilen der Tabelle.
+* SKYTALE kann als Tabelle dargestellt werden. Dabei ergibt die Anzahl
+  Umwicklungen die Anzahl Spalten der Tabelle und die Anzahl der Flächen
+  des Stabes (oder auf den Stab geschriebenen Zeilen) die Anzahl der
+  Zeilen der Tabelle.
 
-   *Zeitbedarf: 10'*
+---
 
-4. Anwendungsübung von SKYTALE
+## Anwendungsübung SKYTALE
    
-   In einer Anwendungsübung kann auf einem karierten Papier ein Text
-   nach der Methode SKYTALE verschlüsselt werden. Der Banknachbar "fängt
-   den verschlüsselten Text ab" und versucht den Text zu entschlüsseln.
+Was muss der "Lauscher" wissen, damit er den Code knacken kann?
 
-   - Was muss der "Lauscher" wissen, damit er den Code knacken kann?
-     
-     Grundsätzlich reicht es, wenn die Anzahl Textzeilen bekannt sind.
-   - Wie sieht eine systematische Vorgehensweise für die Entschlüsselung
-     ohne dieses Wissen aus?
+* Grundsätzlich reicht es, wenn die Anzahl Textzeilen bekannt sind.
 
-     Der Text wird in Tabellen "abgefüllt" bei denen bei jedem Versuch
-     die Anzahl Zeilen um eins erhöht wird.
+Wie sieht eine systematische Vorgehensweise für die Entschlüsselung ohne
+dieses Wissen aus? 
 
-   *Zeitbedarf: 10'*
+* Der Text wird in Tabellen "abgefüllt" bei denen bei jedem Versuch die
+  Anzahl Zeilen um eins erhöht wird. 
 
-5. Beurteilung von SKYTALE
+---
+
+## Beurteilung von SKYTALE
    
-   - Wie viele Möglichkeiten für die Verschlüsselung gibt es?
-     
-     Grundsätzlich ist die Anzahl Verschlüsselung von der Anzahl Zeilen
-     und Spalten der Tabelle abhängig. Ergänzend kann noch die
-     Leserichtung verändert werden.
+Wie viele Möglichkeiten für die Verschlüsselung gibt es?
 
-   - Wie könnte SKYTALE "verbessert" werden?
-     
-     Es wäre beispielsweise möglich, mehrere Durchläufe zu machen.
+* Grundsätzlich ist die Anzahl Verschlüsselung von der Anzahl Zeilen und
+  Spalten der Tabelle abhängig. Ergänzend kann noch die Leserichtung
+  verändert werden. 
+
+Wie könnte SKYTALE "verbessert" werden?
+
+* Es wäre beispielsweise möglich, mehrere Durchläufe zu machen. 
